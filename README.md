@@ -10,6 +10,6 @@ For building binary use:
 
 To execute built binary use:
 
-’dune-test <your-api-token> <result-path.html>’
+`dune-test <your-api-token> <result-path.html>`
 
 Result PNGs are WIP:)
