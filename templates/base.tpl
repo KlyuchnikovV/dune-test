@@ -34,10 +34,13 @@
 		table, th, td {
 			border:1px solid black;
 		}
+    h3 {
+      align: center
+    }
 	</style>
 
+  <center><h3>Eigenlayer TVL Breakdown</h3></center>
 	<div class="container">
-		<div></div>
 		<table>
 		{{- range .Table }}
 			<tr>

@@ -6,10 +6,11 @@ Consumes token for Dune API and result file path as input arguments
 
 For building binary use:
 
-`go build -o=dune-test .`
+`go build -o=out/dune-test .`
 
 To execute built binary use:
 
-`dune-test <your-api-token> <result-path.html>`
+`./out/dune-test <your-api-token> <result-path.html>`
 
-Result PNGs are WIP:)
+Result PNG:
+![Result page](out/result.png "Title")

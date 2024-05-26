@@ -44,7 +44,7 @@ func main() {
 		token      = os.Args[1]
 		resultFile = os.Args[2]
 	)
-	bar.SetGlobalOptions(charts.WithTitleOpts(opts.Title{Title: "Dune Test"}))
+	bar.SetGlobalOptions(charts.WithTitleOpts(opts.Title{Title: "Ethereum Restaked Ratio"}))
 
 	breakdownData, err := fetchBreakdownData(fmt.Sprintf(breakdownURL, token))
 	if err != nil {
