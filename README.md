@@ -6,7 +6,7 @@ Consumes token for Dune API and result file path as input arguments
 
 For building binary use:
 
-’go build -o=dune-test .’
+`go build -o=dune-test .`
 
 To execute built binary use:
 
